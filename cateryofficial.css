@@ -1,0 +1,543 @@
+/*start of upper-bar*/
+.upper-bar{
+    background-color:  #1e1e2f;
+    font-family: sans-serif;
+    height: 80px;
+    
+    
+}
+.get-quote{
+    display: inline-block;
+    border: 1px solid green;
+    
+ 
+}
+
+.meals{
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+}
+.hey{
+    padding-top: 30px;
+    color: white;
+}
+
+/*end of UPPER BAR*/
+
+/*start of main navbar*/
+.navbar-nav{
+	padding-left: 62%;
+}
+.navbar-brand{
+    font-family: 'Cookie', cursive;
+    outline: none;
+    font-size: 40px;
+    font-stretch: expanded;
+    
+    font-weight: 700;
+}
+.taste_{
+    color:#5DA493;
+}
+.nav-item{ 
+    margin: 5px;
+    color: black; 
+    font-size: 20px;
+}
+.nav-item:hover{
+    background-color:
+}
+.nav-link{
+    color: black !important;
+}
+.container-fluid{
+    padding: 50px 0;
+}
+daily{
+   height: 300px;
+}
+/*End of main navbar*/
+
+/*start of feature work*/
+.features i{
+    margin-top: 40px;
+    padding:20px;
+    border: 1px solid;
+    color: white;
+    background-color: #757575;
+}
+/*End of feature work*/
+
+/*start of daily Taste*/
+.dailym{
+    margin-top: 30px;
+      font-family: 'IBM Plex Serif', serif; 
+    font-size: 50px;
+}
+p,h2{
+      font-family: 'IBM Plex Serif', serif;
+}
+.dailyme{
+    line-height: 2;
+    width: 80%;
+    margin:0 auto 15px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.start{
+    opacity: 0.8;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #5DA493;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 5px 5px #C8C8CD;
+}
+/*end of daily taste*/
+
+/*start of featured work*/
+.featured-work{
+    background-color: #6EAEA1;
+}
+.row{
+    list-style: none;
+}
+.all,.weddings,.cakes,.drinks,.meals{
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 auto 10px;
+    text-align: center;
+    line-height: 2.7;
+    color: black;
+} 
+.all{
+    background-color: green;
+}
+.work ul li.active{
+    background-color: red;
+    
+}
+.a:hover{
+    background-color: green;
+    cursor: pointer;
+}
+/*end of featured work*/
+
+
+
+/*start of shuffle images*/
+
+.featured-work .shuffle-images{
+   
+    margin-top: 50px;
+}
+
+.featured-work .shuffle-images .row{
+    margin: 0;
+}
+
+.featured-work .shuffle-images .row .col-md{
+    padding: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.featured-work .row img{
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.shuffle-images img{
+    height: 400px;
+}
+/*end of shuffle images*/
+
+/*start of latest post*/
+.latest-post{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 400px){
+    .latest-post .row{
+        margin: 10px;
+    }
+
+}
+.grid-text{
+    border: 1px solid #C3CDE6;
+    box-shadow: 2px 3px 3px ;
+    border-top: none;
+    padding-left: 15px;
+    width: 100%;
+    
+    
+}
+.facts{
+    font-size:100%;
+    letter-spacing: 1px;
+}
+.grid-text-link{
+    display: inline-block;
+    background-color: #353839;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h4{
+    opacity: 0.6;
+}
+.date{
+    opacity: 0.3;
+}
+.grid img{
+    width: 100%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+/*end of latest post*/
+
+/*start of founders*/
+.founders{
+    width: 100%;
+    margin: 0 auto 15px;
+}
+.founders .row{
+    width: 100%;
+    padding-left: 150px;
+}
+.founders img{
+    border-radius: 50%;
+}
+
+.jane{
+    padding-left: 30px;
+}
+.waiter{
+    padding-left: 25px;
+}
+.pascal{
+    padding-left: 15px;
+}
+.ceo{
+    padding-left: 35px;
+}
+/*end of founders*/
+
+
+
+
+/* Start Pricing Table */
+
+.pricing-table{
+    background-color: #f0f5f7;
+    padding: 100px 0 100px;
+}
+
+@media (max-width: 992px){
+    .pricing-table .card{
+        margin-bottom: 10px;
+    }
+}
+
+.pricing-table h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 992px){
+    .pricing-table h2{
+        font-size: 35px;
+    }
+}
+
+.pricing-table .section-post{
+    line-height: 1.6;
+    font-size: 17px;
+    width: 80%;
+    margin: 0 auto 85px;
+    color: #6a6a6a;
+}
+
+@media (max-width: 992px){
+    .pricing-table .section-post{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.pricing-table .card-body{
+    padding: 0;
+}
+
+.card{
+    box-shadow: 1px 2px 2px 1px;
+}
+.pricing-table .card .card-title{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #333333;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+.pricing-table .card .card-text{
+    line-height: 1.5;
+    font-weight: bold;
+    color: #6a6a6a;
+    margin-bottom: 10px;
+    margin: 30px 0 10px;
+    background-color: #f0f5f7;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.pricing-table .card .card-text span{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.pricing-table .list-group-item{
+    border: none;
+}
+
+.pricing-table .card .card-link{
+    background-color: #5DA493;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.pricing-table .card .weddings{
+    position: relative;
+    top: -20px;
+}
+
+.pricing-table .card .wedding .card-text{
+    background-color: #5DA493;
+    color: #fff;
+}
+
+.card-link{
+    background-color:#5DA493;
+}
+/* End Pricing Table */
+
+
+
+.backg{
+    background-color: #2D383A;
+    color: white;
+    opacity: 0.9;
+}
+.choose img{
+    width: 102.5%;
+}
+.choose .col-lg-6{
+    width: 100%;
+}
+
+.choose h1{
+    padding-top: 100px;
+    padding-left: 30px;
+    opacity: 0.9;
+}
+
+.h1{
+    font-size: 120%;
+    letter-spacing: 1px;
+    padding-left: 30px;
+}
+.choose{
+    margin: 0px;
+    padding: 0px;
+}
+
+.choose .ba{
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 0 0 0 40px;
+     background-color: #5DA493;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.stats{
+    padding: 100px 0;
+    color: #333333;
+}
+
+.stats .number{
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.stats p{
+    color: #5DA493;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+
+
+/* Start Contact Us */
+
+.contact-us{
+    padding: 80px 0;
+    ;
+    color: #fff;
+    font-size: 22px;
+}
+
+.contact-us p{
+    margin: 0;
+}
+
+@media (max-width: 768px){
+    .contact-us p{
+        margin-bottom: 30px;
+    }
+}
+
+.contact-us a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 6px 15px 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* End Contact Us */
+
+
+
+/* Start Footer */
+
+.footer{
+    padding: 100px 0;
+}
+
+.footer .site-info h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.footer .navbar-brand{
+    letter-spacing: 1px;
+}
+.footer .site-info span{
+    font-weight: lighter;
+}
+
+
+.footer .site-info h2 span:first-child{
+     font-family: 'Cookie', cursive;
+}
+
+.footer .site-info p{
+    line-height: 1.8;
+    color: #727272;
+}
+
+.footer .site-info a{
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer .site-info a:before{
+    font-family: FontAwesome; 
+    content: "\f138";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer .helpful-links h3,
+.footer .contact h3{
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 60px;
+}
+
+.footer .helpful-links ul li:before{
+    font-family: FontAwesome;
+    content: "\f054";
+    margin-right: 5px;
+    color: #333333;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+
+.footer .contact ul li{
+    margin-bottom: 25px;
+}
+
+.footer .contact a{
+    color: #ECA86B;
+    text-decoration: none;
+}
+
+@media (max-width: 992px){
+    .footer .helpful-links h3,
+    .footer .contact h3{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .footer .contact ul li{
+        margin-bottom: 5px;
+    }
+}
+
+/* End Footer */
+
+/* Start Copyright */
+
+.copyright{
+    border-top: 1px solid #c0c0c0;
+    padding: 20px;
+}
+
+.copyright ul{
+    margin: 0;
+}
+.copyright ul li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.copyright ul li a{
+    color: #777;
+}
+
+/* End Copyright */
+
+
+
+
+
+
